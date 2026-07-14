@@ -1,0 +1,19 @@
+{
+  "$schema": "./.dt-app/app.config.schema.json",
+  "environmentUrl": "https://demo.apps.dynatrace.com/",
+  "app": {
+    "name": "problem-analysis",
+    "version": "0.0.0",
+    "description": "A starting project with routing, fetching data, and charting",
+    "id": "my.problem.analysis",
+    "scopes": [
+      { "name": "storage:logs:read", "comment": "default template" },
+      { "name": "storage:buckets:read", "comment": "default template" },
+      { "name": "storage:smartscape:read", "comment": "read entities via smartscapeNodes DQL" },
+      { "name": "storage:entities:read", "comment": "read monitored entities via DQL" },
+      { "name": "environment-api:entities:read", "comment": "read monitored entities via classic entities API" },
+      { "name": "settings:objects:read", "comment": "read anomaly detection settings objects" },
+      { "name": "settings:schemas:read", "comment": "discover anomaly detection settings schemas" }
+    ]
+  }
+}
