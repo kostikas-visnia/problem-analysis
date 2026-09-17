@@ -3,7 +3,7 @@
   "environmentUrl": "https://demo.apps.dynatrace.com/",
   "app": {
     "name": "problem-analysis",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "A starting project with routing, fetching data, and charting",
     "id": "my.problem.analysis",
     "scopes": [
